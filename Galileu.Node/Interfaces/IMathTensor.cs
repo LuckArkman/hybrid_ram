@@ -1,0 +1,14 @@
+using Galileu.Node.Core;
+
+namespace Galileu.Node.Interfaces;
+
+public interface IMathTensor : IDisposable
+{
+    int[] Shape { get; }
+    long Length { get; }
+    bool IsGpu { get; }
+    Tensor ToCpuTensor();
+    void UpdateFromCpu(float[] data);
+    void WriteToStream(BinaryWriter writer);
+    void ReadFromStream(BinaryReader reader, long length);
+}
