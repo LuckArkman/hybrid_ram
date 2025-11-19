@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj": {}
+    "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj": {}
   },
   "projects": {
-    "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj": {
+    "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+        "projectUniqueName": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
         "projectName": "Galileu.Node",
-        "projectPath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+        "projectPath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
         "packagesPath": "/home/mplopes/.nuget/packages/",
-        "outputPath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/obj/",
+        "outputPath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mplopes/.nuget/NuGet/NuGet.Config"

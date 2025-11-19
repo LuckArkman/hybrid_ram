@@ -8925,11 +8925,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+      "projectUniqueName": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
       "projectName": "Galileu.Node",
-      "projectPath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+      "projectPath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
       "packagesPath": "/home/mplopes/.nuget/packages/",
-      "outputPath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/obj/",
+      "outputPath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/mplopes/.nuget/NuGet/NuGet.Config"
@@ -9054,7 +9054,7 @@
       "code": "NU1904",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Akka.Remote' 1.5.27 has a known critical severity vulnerability, https://github.com/advisories/GHSA-jhpv-4q4f-43g5",
+      "message": "O pacote 'Akka.Remote' 1.5.27 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-jhpv-4q4f-43g5",
       "libraryId": "Akka.Remote",
       "targetGraphs": [
         "net8.0"
@@ -9064,7 +9064,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'OpenCL.Net 2.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "message": "O pacote 'OpenCL.Net 2.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
       "libraryId": "OpenCL.Net",
       "targetGraphs": [
         "net8.0"

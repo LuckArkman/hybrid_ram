@@ -1,0 +1,113 @@
+Usando as configurações de inicialização de /mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Properties/launchSettings.json...
+Compilando...
+/usr/share/dotnet/sdk/9.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets(111,5): warning NETSDK1080: um PackageReference para Microsoft.AspNetCore.App não é necessário quando direcionado ao .NET Core 3.0 ou superior. Se o Microsoft.NET.Sdk.Web for usado, a estrutura compartilhada será referenciada automaticamente. Caso contrário, o PackageReference deverá ser substituído por um FrameworkReference. [/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj]
+/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj : warning NU1904: O pacote 'Akka.Remote' 1.5.27 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-jhpv-4q4f-43g5
+/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj : warning NU1701: O pacote 'OpenCL.Net 2.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.
+/usr/share/dotnet/sdk/9.0.300/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.DefaultItems.Shared.targets(111,5): warning NETSDK1080: um PackageReference para Microsoft.AspNetCore.App não é necessário quando direcionado ao .NET Core 3.0 ou superior. Se o Microsoft.NET.Sdk.Web for usado, a estrutura compartilhada será referenciada automaticamente. Caso contrário, o PackageReference deverá ser substituído por um FrameworkReference. [/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj]
+/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj : warning NU1904: O pacote 'Akka.Remote' 1.5.27 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-jhpv-4q4f-43g5
+/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj : warning NU1701: O pacote 'OpenCL.Net 2.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.
+ === Swagger Acess http://localhost:35119/swagger/index.html ===
+info: Services.GossipService[0]
+      Gossip Service iniciado. Fofocando a cada 15 segundos.
+[INFO][11/19/2025 16:05:48.670Z][Thread 0001][remoting (akka://Dyson-System)] Starting remoting
+[INFO][11/19/2025 16:05:48.886Z][Thread 0001][remoting (akka://Dyson-System)] Remoting started; listening on addresses : [akka.tcp://Dyson-System@localhost:45119]
+[INFO][11/19/2025 16:05:48.887Z][Thread 0001][remoting (akka://Dyson-System)] Remoting now listens on addresses: [akka.tcp://Dyson-System@localhost:45119]
+[Akka] Sistema de Atores iniciado em akka.tcp://Dyson-System@localhost:45119
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:35119
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node
+[Registry] Nó specialized-node-88f3b0ae em http://localhost:35119 registrado.
+Iniciando registro com o Orquestrador em http://localhost:5001...
+ERRO CRÍTICO no registro: Connection refused (localhost:5001). O nó não pode se juntar à rede e permanecerá em modo de espera.
+[GenerativeService] Usando GpuMathEngine para aceleração.
+Arquivo de dataset existe >> True
+========================================
+CONFIGURAÇÃO DE TREINAMENTO OTIMIZADA
+MODO: LONGO PRAZO (25 ÉPOCAS / 20 DIAS)
+========================================
+[VocabularyManager] Vocabulário carregado: 20000 tokens
+[VocabularyManager] Carregando vocabulario in Disco (máx: 20000 tokens)...
+
+[Config] Vocabulário: 20000 tokens
+[Config] Hidden Size: 192
+[Config] Embedding Size: 96
+[Config] CONTEXT WINDOW Size: 16
+[Config] Épocas: 25
+[Config] Learning Rate: 0,0001
+[Config] Batch Size: 32 (otimizado para memória)
+[Config] Validação: 10%
+[Config] META: RAM < 10GB durante 20 dias
+
+========================================
+INICIANDO TREINAMENTO
+Duração estimada: 20 dias
+Monitoramento de memória: ATIVO
+========================================
+
+[GenerativeService] Arquitetura: Vocab=20000, Emb=96, Hidden=192
+[DiskSwap] 💾 Swap ativo em: /mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Dayson/Swap/session_20251119_160551_2172dfc1925e4f30bc9523ea8511c43b
+[IndividualFileTensorManager] Sessão 'session_20251119_160551_2172dfc1925e4f30bc9523ea8511c43b' inicializada em: /mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Dayson/TensorCache/session_20251119_160551_2172dfc1925e4f30bc9523ea8511c43b
+╔═══════════════════════════════════════════════════════════╗
+║   🔥 ZERO-RAM LSTM (100% DISK-BACKED)                   ║
+╚═══════════════════════════════════════════════════════════╝
+[ZERO-RAM LSTM] Inicialização completa:
+  ├─ Tensores em disco: 25
+  ├─ Espaço em disco: 22 MB
+  └─ RAM usada (índices): 0 MB
+
+[VocabularyManager] Vocabulário carregado: 20000 tokens
+[VocabularyManager] Carregando vocabulario in Disco (máx: 20000 tokens)...
+
+════════════════════════════════════════════════════════════════════════════════
+EXECUTANDO VALIDAÇÃO DE INTEGRIDADE DO MODELO
+════════════════════════════════════════════════════════════════════════════════
+
+╔═══════════════════════════════════════════════════════════╗
+║        🚀 INICIANDO VERIFICAÇÃO DE SANIDADE (ZERO-RAM)     ║
+╚═══════════════════════════════════════════════════════════╝
+[Sanity Check] Usando dados sintéticos: Input={5,10}, Target={10,15}
+
+[Sanity Check] Fase 1/3: Executando Forward Pass...
+[Sanity Check] Forward Pass concluído. Perda inicial: 9,9603
+[Sanity Check] Perda esperada (aleatória): ~9,9035
+
+[Sanity Check] Fase 2/3: Executando Backward Pass...
+[Sanity Check] Backward Pass concluído. 23 arquivos de gradiente gerados.
+[Sanity Check] Soma absoluta de todos os gradientes: 8,78E+002
+
+[Sanity Check] Fase 3/3: Executando Update Pass (Adam)...
+[Sanity Check] Update Pass concluído.
+
+╔═══════════════════════════════════════════════════════════╗
+║         ✅ VERIFICAÇÃO DE SANIDADE CONCLUÍDA COM SUCESSO!      ║
+╚═══════════════════════════════════════════════════════════╝
+
+
+[Sanity Check] Executando limpeza de recursos...
+[Sanity Check] Limpeza concluída.
+════════════════════════════════════════════════════════════════════════════════
+
+[GenerativeService] Memória estimada do modelo: ~137MB
+
+[GenerativeService] Iniciando treinamento com otimizações de memória...
+[DatasetService] Armazenamento de lotes BinaryTreeFileStorage inicializado em: /mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Dayson/batches.bts
+[DatasetService] Iniciando processamento em streaming do dataset com contextWindowSize=16, batchSize=32...
+[DatasetService] Total de sequências a serem geradas: 810.353
+[DatasetService] Treino: 729.318 sequências | Validação: 81.035 sequências
+[DatasetService] Processamento em streaming concluído.
+[DatasetService] Dados de treino: 22792 lotes, Dados de validação: 2533 lotes
+
+[Trainer] Configuração do Ciclo de Treinamento com Liberação Total de Memória.
+[Trainer] Memory Watchdog ativado: Limite de ~2000 MB.
+
+                                                           ═
+ÉPOCA 1/25 >> Learning Rate: 0,0001 >> 19/11/2025 16:06:23
+                                                           ═
+[Trainer] Carregando pesos do modelo para a VRAM para a Época 1...
+[Trainer] Pesos do modelo carregados na VRAM e prontos para a época.
+Época: 1/25 | Lotes: 1/22792 | Perda do Lote: 9,8513| Tempo do Lote : 0:06:52,7847316

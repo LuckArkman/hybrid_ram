@@ -149,17 +149,18 @@ async Task BootstrapNodeAsync(IServiceProvider services, string[] args)
         var trainer = new Trainer(
             datasetPath,
             epochs: 25, // 25 épocas conforme requisito
-            learningRate: 0.00001f,
+            learningRate: 0.0001f,
             validationSplit: 0.1f,
-            batchSize: 16 // Reduzido de 32 para 24 (menos memória)
+            batchSize: 32 // Reduzido de 32 para 24 (menos memória)
         );
         const int HIDDEN_SIZE = 192;
         const int EMBEDDING_SIZE = 96;
-        const int CONTEXT_WINDOW = 6;
+        const int CONTEXT_WINDOW = 16;
 
         Console.WriteLine($"\n[Config] Vocabulário: {vocabSize} tokens");
         Console.WriteLine($"[Config] Hidden Size: {HIDDEN_SIZE}");
         Console.WriteLine($"[Config] Embedding Size: {EMBEDDING_SIZE}");
+        Console.WriteLine($"[Config] CONTEXT WINDOW Size: {CONTEXT_WINDOW}");
         Console.WriteLine($"[Config] Épocas: {trainer.epochs}");
         Console.WriteLine($"[Config] Learning Rate: {trainer.learningRate}");
         Console.WriteLine($"[Config] Batch Size: {trainer.batchSize} (otimizado para memória)");

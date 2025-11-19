@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mh5gbiUC5jI=",
+  "dgSpecHash": "MADnUm3v8RM=",
   "success": true,
-  "projectFilePath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+  "projectFilePath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
   "expectedPackageFiles": [
     "/home/mplopes/.nuget/packages/akka/1.5.49/akka.1.5.49.nupkg.sha512",
     "/home/mplopes/.nuget/packages/akka.analyzers/0.3.3/akka.analyzers.0.3.3.nupkg.sha512",
@@ -174,10 +174,10 @@
     {
       "code": "NU1904",
       "level": "Warning",
-      "message": "Package 'Akka.Remote' 1.5.27 has a known critical severity vulnerability, https://github.com/advisories/GHSA-jhpv-4q4f-43g5",
-      "projectPath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+      "message": "O pacote 'Akka.Remote' 1.5.27 tem uma crítico vulnerabilidade de gravidade conhecida, https://github.com/advisories/GHSA-jhpv-4q4f-43g5",
+      "projectPath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
       "warningLevel": 1,
-      "filePath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+      "filePath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
       "libraryId": "Akka.Remote",
       "targetGraphs": [
         "net8.0"
@@ -186,10 +186,10 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Package 'OpenCL.Net 2.2.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+      "message": "O pacote 'OpenCL.Net 2.2.9' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net8.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "projectPath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
       "warningLevel": 1,
-      "filePath": "/mnt/8AA2CEB6A2CEA5D3/Dayzon.Node/Galileu.Node/Galileu.Node.csproj",
+      "filePath": "/mnt/8AA2CEB6A2CEA5D3/hybrid_ram/Galileu.Node/Galileu.Node.csproj",
       "libraryId": "OpenCL.Net",
       "targetGraphs": [
         "net8.0"
