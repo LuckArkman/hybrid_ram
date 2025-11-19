@@ -111,3 +111,10 @@ EXECUTANDO VALIDAÇÃO DE INTEGRIDADE DO MODELO
 [Trainer] Carregando pesos do modelo para a VRAM para a Época 1...
 [Trainer] Pesos do modelo carregados na VRAM e prontos para a época.
 Época: 1/25 | Lotes: 1/22792 | Perda do Lote: 9,8513| Tempo do Lote : 0:06:52,7847316
+Época: 1/25 | Lotes: 2/22792 | Perda do Lote: 9,8508| Tempo do Lote : 0:07:02,713364
+Época: 1/25 | Lotes: 3/22792 | Perda do Lote: 9,8649| Tempo do Lote : 0:06:49,0725699
+Época: 1/25 | Lotes: 4/22792 | Perda do Lote: 9,8552| Tempo do Lote : 0:07:12,3601715
+Época: 1/25 | Lotes: 5/22792 | Perda do Lote: 9,8389| Tempo do Lote : 0:06:45,2235239
+Época: 1/25 | Lotes: 6/22792 | Perda do Lote: 9,8411| Tempo do Lote : 0:07:12,4116403
+Época: 1/25 | Lotes: 7/22792 | Perda do Lote: 9,8548| Tempo do Lote : 0:06:42,5569223
+Época: 1/25 | Lotes: 8/22792 | Perda do Lote: 9,8539| Tempo do Lote : 0:06:41,4367107
